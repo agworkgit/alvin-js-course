@@ -25,6 +25,9 @@ console.log(i); // logs 100
 // Throwing a ReferenceError - this will appear when we reference undefined variables
 /* console.log(notdefinedyet); */
 
+let isEven = 51 % 2 === 0;
+console.log(isEven); // false
+
 /* 
 
 Note:

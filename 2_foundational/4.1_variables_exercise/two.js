@@ -4,7 +4,7 @@ console.log(apple); // undefined
 apple = 5;
 console.log(apple); // 5
 
-apple + 1; // this is not an assignment, the increment is gone past this line
+apple + 1; // this is not an assignment, the increment is not stored past this line
 console.log(apple); // 5
 
 apple += 1;
