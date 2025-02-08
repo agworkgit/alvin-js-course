@@ -26,16 +26,16 @@ console.log(myString[1]);
 // Getting a portion of a string
 console.log(myString.slice(2)); // slice past index 2, stu
 let subStr = myString.slice(1, 3); // starting index is inclusive, ending index is exclusive
-// Slice will also accept negative numbers, refering to counting backwards (front the end of the string)
 console.log(subStr); // rs
 
-
-
+// Slice will also accept negative numbers, refering to counting backwards (front the end of the string)
+let newString = 'negativecount';
+let newSubStr = newString.slice(-2);
+console.log(newSubStr);  // nt
 
 /* 
 
 Note:
-
 
 
 */
