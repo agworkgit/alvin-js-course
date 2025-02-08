@@ -1,6 +1,8 @@
 // Write a function `endsInLy` that accepts a string as an argument and returns a boolean indicating
 // whether or not the string ends in the substring 'ly'.
 
+/* 
+
 let endsInLy = function (str)
 {
     if (str[str.length - 1] === 'y' && str[str.length - 2] === 'l') {
@@ -8,6 +10,13 @@ let endsInLy = function (str)
     } else {
         return false;
     }
+} 
+    
+*/
+
+let endsInLy = function (str)
+{
+    return str.endsWith('ly');
 }
 
 console.log(endsInLy("pretty")); // false
