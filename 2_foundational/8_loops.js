@@ -42,6 +42,16 @@ Note:
 str.length returns a number of the character length of the string
 */
 
+console.log('\n');
+let sum = 0;
+
+for (let num = 1; num < 7; num++)
+{
+    sum += num;
+}
+console.log(sum); // 1+2+3+4+5+6 = 21
+
+
 
 
 console.log('\n');
