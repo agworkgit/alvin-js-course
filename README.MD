@@ -1,6 +1,6 @@
-# Alvin's JavaScript Course
+# Alvin's JavaScript course
 
-### The notes I took while completing Alvin's course on the JavaScript language and my answers to the programming exercises / challenges.
+### Documenting the process, lecture notes and the answers I gave for the practice exercises.
 
 During this course I learned the following:
 - GIT terminal commands & BASH commands
@@ -10,5 +10,5 @@ During this course I learned the following:
 I will update this README as I go through the course.
 
 If you'd like to give it a shot yourself then Alvin's full course can be found here:
-[Walkthroughs](https://youtu.be/5qlbbpvp2Y4?si=93Fkkum3k_Ix4QTQ),
-[Exercises](https://github.com/Hey-Programmers/learn-javascript)
+[walkthroughs](https://youtu.be/5qlbbpvp2Y4?si=93Fkkum3k_Ix4QTQ),
+[exercises](https://github.com/Hey-Programmers/learn-javascript)
