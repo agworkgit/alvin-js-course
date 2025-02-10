@@ -1,6 +1,6 @@
 # Alvin's JavaScript course
 
-### Documenting the process, lecture notes and the answers I gave for the practice exercises.
+## Documenting the process, lecture notes and the answers I gave for the practice exercises.
 
 During this course I learned the following:
 - GIT commands, VIM commands & BASH commands
@@ -10,5 +10,9 @@ During this course I learned the following:
 I will update this README as I go through the course.
 
 If you'd like to give it a shot yourself then Alvin's full course can be found here:
-[walkthroughs](https://youtu.be/5qlbbpvp2Y4?si=93Fkkum3k_Ix4QTQ),
-[exercises](https://github.com/Hey-Programmers/learn-javascript)
+- [walkthroughs](https://youtu.be/5qlbbpvp2Y4?si=93Fkkum3k_Ix4QTQ)
+- [exercises](https://github.com/Hey-Programmers/learn-javascript)
+
+## Badges
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
