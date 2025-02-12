@@ -78,7 +78,7 @@ Capitalisation will change the result!
 
 //-------------------------------------------------//
 
-// Accessing individual words
+// Split - string into array
 
 let sentence = 'I cannot wait for dinner';
 
@@ -92,3 +92,47 @@ for (let i = 0; i < words.length; i++)
 {
     console.log(words[i]);
 }
+
+//-------------------------------------------------//
+
+// Join - combining array elements into string
+
+let newPeople = ['dan','patrick', 'phil', 'jean', 'kim'];
+
+myStr = newPeople.join("-");
+console.log(myStr);
+
+//-------------------------------------------------//
+
+// Exercise:
+
+// Write a function that accepts an array of numbers as an argument and return the smallest number in the array. If the array is empty, then return null
+
+let smallestNum = function (arr)
+{
+    if (arr.length === 0){
+        return null;
+    }
+
+    let smallest = arr[0]; // 5
+
+    for (let i = 1; i < arr.length; i++) // start at 6
+    {
+        // if num I'm iterating is smaller than the smallest number then replace smallest with num
+        let num = arr[i];
+        if (num < smallest) // check if less than 5
+        {
+            smallest = num; // replace 4 with 3
+        }
+    }
+    return smallest; // 3
+}
+
+console.log(smallestNum([5, 6, 4, 3, 7])); // 3
+console.log(smallestNum([17, 20])); // 17
+console.log(smallestNum([])); // null
+
+/* 
+Notes:
+null means the deliverate absence of a value or 'nothing'
+*/
