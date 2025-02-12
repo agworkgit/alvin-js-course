@@ -4,7 +4,7 @@
 let divisors = function (num)
 {
     let divisorArr = [];
-    for (let i = 0; i < 30; i++)
+    for (let i = 0; i <= num; i++)
     {
         if (num % i === 0)
         {
