@@ -3,14 +3,13 @@
 
 let makeAcronym = function (str)
 {
-    let words = str.split(' ');
+    let words = str.split(' '); // split words into array
     let acronym = '';
-    let slices = '';
     for (let i = 0; i < words.length; i++)
     {
-        slices = words[i].toUpperCase();
-        return slices;
+        acronym += words[i][0]; // take 1st char of every word
     }
+    return acronym.toUpperCase(); // return it uppercased
 }
 
 console.log(makeAcronym("New York")); // NY
