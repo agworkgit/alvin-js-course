@@ -136,3 +136,4 @@ console.log(smallestNum([])); // null
 Notes:
 null means the deliverate absence of a value or 'nothing'
 */
+
