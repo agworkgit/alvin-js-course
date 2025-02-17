@@ -2,11 +2,11 @@
 // should return a new sentence where all of the words shorter than 4 characters are removed.
 
 let removeShortWords = function (string) {
-  let split = string.split(" ");
+  let splitString = string.split(" ");
   let newString = [];
-  for (let i = 0; i < split.length; i++) {
-    if (split[i].length > 3) {
-      newString.push(split[i]);
+  for (let i = 0; i < splitString.length; i++) {
+    if (splitString[i].length > 3) {
+      newString.push(splitString[i]);
     }
   }
   return newString.join(' ');
