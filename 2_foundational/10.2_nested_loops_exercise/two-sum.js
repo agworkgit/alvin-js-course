@@ -5,7 +5,7 @@
 let twoSum = function (numbers, target) {
     for (let i = 0; i < numbers.length; i++)
     {        
-        for (let j = i + 1; j < numbers.length; j++)
+        for (let j = i + 1; j < numbers.length; j++) // we set j + 1 so that we get distinct pairs without duplicates
         {
             // console.log(numbers[i], numbers[j]);
             
