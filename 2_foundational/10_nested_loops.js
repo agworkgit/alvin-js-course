@@ -29,3 +29,32 @@ for (let i = 0; i < array.length; i++)
         console.log(array[i], array[j]);
     }
 }
+
+// Removing duplicates
+
+console.log('\n'); // New line
+
+let newArr = ['purple','yellow','black','lime'];
+
+for (let i = 0; i < newArr.length; i++)
+{
+    for (let j = i + 1; j < newArr.length; j++) // start from current index + 1
+    {
+        console.log(newArr[i], newArr[j]);
+    }
+}
+
+// Iteration flow
+
+// i      =     0         1        2       3
+// array  = ['purple','yellow','black','lime']
+//              ^
+//              i
+
+// j      =     0         1        2       3
+// array  = ['purple','yellow','black','lime']
+//                        ^
+//                      i + 1
+
+
+console.log('\n'); // New line
