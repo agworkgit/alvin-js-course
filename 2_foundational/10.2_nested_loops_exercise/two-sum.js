@@ -25,3 +25,5 @@ console.log(twoSum([6, 5, 1], 10)); // false
 
 // We return true once we find a pair that is equal to target
 // We return false after the nested loops, after we have checked every pair!
+
+// Remember that if you RETURN something out of a function, as soon as you do that you exit that function
