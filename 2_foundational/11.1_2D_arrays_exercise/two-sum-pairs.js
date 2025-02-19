@@ -7,14 +7,17 @@ let twoSumPairs = function (numbers, target)
     let matches = [];
     for (let i = 0; i < numbers.length; i++)
     {
+
         for (let j = i + 1; j < numbers.length; j++)
         {
             let sum = [];
+
             if (numbers[i] + numbers[j] === target)
             {
                 sum.push(numbers[i], numbers[j]);
                 matches.push(sum);
             }
+            
         }
     }
     return matches;
