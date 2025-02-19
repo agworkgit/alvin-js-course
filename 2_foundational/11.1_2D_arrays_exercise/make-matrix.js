@@ -2,7 +2,7 @@
 // a 2-dimensional array of height `m` and width `n` that contains the `value` as every element.
 
 let makeMatrix = function (m, n, value) {
-  let array = []; // start with empty array
+  let matrix = []; // start with empty array
 
   for (let i = 0; i < m; i++) { // iterate m times
     let subarray = []; // empty subarray
@@ -10,10 +10,10 @@ let makeMatrix = function (m, n, value) {
     for (let j = 0; j < n; j++) { // iterate n times
       subarray.push(value); // push calue to subarray every iteration
     }
-    array.push(subarray); // push subarray into empty array
+    matrix.push(subarray); // push subarray into empty array
   }
 
-  return array; // returns the values in the examples
+  return matrix; // returns the values in the examples
 };
 
 console.log(makeMatrix(3, 5, null));
