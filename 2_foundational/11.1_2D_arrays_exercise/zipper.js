@@ -5,7 +5,10 @@
 let zipper = function (array1, array2) {
   let complete = [];
   for (let i = 0; i < array1.length; i++) {
-    complete.push([array1[i], array2[i]]);
+    let elem1 = array1[i];
+    let elem2 = array2[i];
+    let pair = [elem1, elem2];
+    complete.push(pair);
   }
   return complete;
 };
