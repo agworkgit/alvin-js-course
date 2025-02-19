@@ -3,7 +3,7 @@
 
 let totalProduct = function (array)
 {
-    let product = 1;
+    let product = 1; // multiplicative identity
     for (let i = 0; i < array.length; i++)
     {
         let subarray = array[i];
