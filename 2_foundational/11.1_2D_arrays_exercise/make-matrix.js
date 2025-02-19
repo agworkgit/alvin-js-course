@@ -4,10 +4,12 @@
 let makeMatrix = function (m, n, value) {
   let matrix = []; // start with empty array
 
-  for (let i = 0; i < m; i++) { // iterate m times
+  for (let i = 0; i < m; i++) {
+    // iterate m times
     let subarray = []; // empty subarray
 
-    for (let j = 0; j < n; j++) { // iterate n times
+    for (let j = 0; j < n; j++) {
+      // iterate n times
       subarray.push(value); // push calue to subarray every iteration
     }
     matrix.push(subarray); // push subarray into empty array
