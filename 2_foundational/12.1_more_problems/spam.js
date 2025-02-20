@@ -2,7 +2,8 @@
 // The first element of every pair is a number and the second element is a word. The function should
 // return a string containing the words repeated the specified number of times. See the examples.
 
-let spam = function (array)
+// First attempt - solved
+/* let spam = function (array)
 {
     let returnStr = [];
 
@@ -19,6 +20,25 @@ let spam = function (array)
     }
 
     return returnStr.join(' ');
+} */
+
+let spam = function (pairs)
+{
+    let words = [];
+
+    for (let i = 0; i < pairs.length; i++)
+    {
+        let pair = pairs[i];
+        let word = pair[0];
+        let number = pair[1];
+
+        for (let j = 0; j < number; j++)
+        {
+            words.push(word);
+        }
+    }
+
+    return words.join(' ');
 }
 
 let array1 = [
