@@ -15,6 +15,7 @@ let removeFirstVowel = function (str) {
         //  first instance of 'o' will be removed by the left hand slice
     }
   }
+  return 'no vowels in the given string'; // this will run when the if statement returns undefined.
 };
 
 // Note: the slice method will go up to the second argument but not including it
@@ -22,3 +23,5 @@ let removeFirstVowel = function (str) {
 console.log(removeFirstVowel("volcano")); // 'vlcano'
 console.log(removeFirstVowel("celery")); // 'clery'
 console.log(removeFirstVowel("juice")); // 'jice'
+
+console.log(removeFirstVowel("try")); // this will return undefined, as at no point in time the if statement will be true
