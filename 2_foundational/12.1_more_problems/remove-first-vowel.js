@@ -10,6 +10,9 @@ let removeFirstVowel = function (str) {
     if (vowels.includes(char)) // if vowels includes vowel in char return true
     {
         return str.slice(0, i) + str.slice(i + 1); // the logic found the first vowel, so return str without that character plus the rest of the string
+        //             ^       +        ^
+        //              v               lcano
+        //  first instance of 'o' will be removed by the left hand slice
     }
   }
 };
