@@ -2,16 +2,16 @@
 // the string with it's first vowel removed.
 
 let removeFirstVowel = function (str) {
-  let vowels = "aeiou";
-  let newstr = "";
+  let vowels = 'aeiou';
 
-  for (let i = 0; i < str.length; i++) {
-    let char = str[i];
+  for (let i = 0; i < str.length; i++) { // iterate from left to right through characters
+    let char = str[i]; // assign character to char
 
-    newstr += char;
+    if (vowels.includes(char)) // if vowels includes vowel in char return true
+    {
+        return str.slice(0, i) + str.slice(i + 1); // the logic found the first vowel, so return str without that character plus the rest of the string
+    }
   }
-
-  return newstr;
 };
 
 console.log(removeFirstVowel("volcano")); // 'vlcano'
