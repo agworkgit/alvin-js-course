@@ -14,6 +14,8 @@ let removeFirstVowel = function (str) {
   }
 };
 
+// Note: the slice method will go up to the second argument but not including it
+
 console.log(removeFirstVowel("volcano")); // 'vlcano'
 console.log(removeFirstVowel("celery")); // 'clery'
 console.log(removeFirstVowel("juice")); // 'jice'
